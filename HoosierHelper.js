@@ -7,7 +7,7 @@ if (course != null && course.split(" ").length == 2) {
 	var subject = course[0];
 	var number = course[1];
 	open("http://gradedistribution.registrar.indiana.edu/reports.php?subj=" + subject +
-	 "&crse=" + number + "&term=4168&rept=1&result=HTM");
+	 "&crse=" + number + "&term=4172&rept=1&result=HTM");
 } else {
 	alert("ERROR: Please enter course or format it correctly.");
 }
